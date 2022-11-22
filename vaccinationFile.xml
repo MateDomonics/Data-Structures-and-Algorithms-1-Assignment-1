@@ -1,0 +1,52 @@
+<object-stream>
+  <com.example.assignment.VaccinationApplication_-storage>
+    <vaxxCentre>
+      <head>
+        <contents class="com.example.assignment.VaccinationCentre">
+          <name>Test</name>
+          <address>Address</address>
+          <eircode>R95 N7FP</eircode>
+          <parkingSpace>2</parkingSpace>
+          <booths>
+            <head>
+              <contents class="com.example.assignment.Booth">
+                <boothID>A1</boothID>
+                <floorLevel>1</floorLevel>
+                <easilyAccessible>Wheelchair</easilyAccessible>
+                <appointment>
+                  <head>
+                    <contents class="com.example.assignment.VaccinationAppointment">
+                      <vaxxDate>2021-12-08</vaxxDate>
+                      <vaxxTime>10.00</vaxxTime>
+                      <vaxxType>Pfizer</vaxxType>
+                      <vaxxBatch>123</vaxxBatch>
+                      <vaxxDetails>Eric Butler</vaxxDetails>
+                      <patientPPSN>1234567AA</patientPPSN>
+                    </contents>
+                    <outer-class reference="../.."/>
+                  </head>
+                </appointment>
+              </contents>
+              <outer-class reference="../.."/>
+            </head>
+          </booths>
+        </contents>
+        <outer-class reference="../.."/>
+      </head>
+    </vaxxCentre>
+    <patient>
+      <head>
+        <contents class="com.example.assignment.Patient">
+          <ppsn>1234567AA</ppsn>
+          <name>Dylan Fennelly</name>
+          <eircode>R95 N7FP</eircode>
+          <phoneNumber>12354</phoneNumber>
+          <email>dylan@wit.ie</email>
+          <accessibilityInfo>Nothing</accessibilityInfo>
+          <records/>
+        </contents>
+        <outer-class reference="../.."/>
+      </head>
+    </patient>
+  </com.example.assignment.VaccinationApplication_-storage>
+</object-stream>
